@@ -1,8 +1,9 @@
 ### Common commands:
-- git status
-- git add --all
-- git commit -m 'Commit message'
-- git log
+- `git status`
+- `git add --all`
+- `git commit -m 'Commit message'`
+- `git log`
+    - `--online` — for short info
 
 ### How to generate SSH key for remote repo
 ```bash
