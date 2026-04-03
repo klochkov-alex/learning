@@ -22,3 +22,25 @@ git remote add origin git@github.com:klochkov-alex/learning.git
 ```bash
 - git push -u origin main #(push main branch to origin; origin is set by --set-upstream a.k.a -u)
 ```
+
+### About HEAD
+HEAD always points to the latest commit
+
+### File statuses
+- untracked
+- tracked
+- modified
+- staged
+
+```
+ __________ 
+|          |
+| modified |___________________________
+|__________|                          |
+         __________                ___V_____ 				    _________
+        |          |<-- edit -----|         |                  |         |
+     -->| modified |              | staged  |--- git commit -->| tracked |
+    |   |__________|-- git add -->|_________|                  |_________|
+    |                                                               |
+    |____________________________edit_______________________________|
+```
