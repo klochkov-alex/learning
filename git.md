@@ -35,7 +35,7 @@ HEAD always points to the latest commit
 ```
  __________ 
 |          |
-| modified |___________________________
+| modified |________ git add __________
 |__________|                          |
          __________                ___V_____ 				    _________
         |          |<-- edit -----|         |                  |         |
