@@ -1,5 +1,11 @@
+### How to generate SSH key for remote repo
+```bash
 ssh-keygen -t ed25519 -C "ydnx-klochkov-alex@yandex.ru" -f github
+```
+Check connection to remote repo
+```bash
 ssh -T git@github.com -i github
+```
 
 ### Commands:
 - git status
