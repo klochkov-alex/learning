@@ -3,7 +3,7 @@
 - `git add --all`
 - `git commit -m 'Commit message'`
 - `git log`
-    - `--online` — for short info
+    - `--oneline` — for short info
 
 ### How to generate SSH key for remote repo
 ```bash
