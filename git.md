@@ -4,5 +4,5 @@ ssh -T git@github.com -i github
 Commands:
 - git status
 - git add --all
-- git stage (?)
 - git commit -m 'Commit message'
+- git log
