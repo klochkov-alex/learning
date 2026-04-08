@@ -44,3 +44,16 @@ HEAD always points to the latest commit
     |                                                               |
     |____________________________edit_______________________________|
 ```
+
+### How to make diagrams
+
+Use mermaid[https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/]:
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged
+  staged -- "git commit" --> tracked
+  staged -- "edit" --> modified
+  tracked -- "edit" --> modified
+  modified -- "git add" --> staged
+```
