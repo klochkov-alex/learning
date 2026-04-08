@@ -57,3 +57,11 @@ graph LR;
   tracked -- "edit" --> modified
   modified -- "git add" --> staged
 ```
+
+### How to edit the latest commit
+1. Make changes;
+2. Add them to the latest commit:
+   ```bash
+     git commit --amend --no-edit
+   ```
+   `--no-edit` means no edit for commit message (leave the same as it was);
