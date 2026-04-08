@@ -77,3 +77,15 @@ git commit --amend -m "<new message>"
 ```bash
 git restore --staged <file>
 ```
+
+### Delete commits until <hash>
+
+Check has for the commit:
+```
+git log --oneline
+```
+
+Delete commits:
+```
+git reset --hard <commit>
+```
