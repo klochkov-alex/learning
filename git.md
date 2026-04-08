@@ -20,7 +20,7 @@ git remote add origin git@github.com:klochkov-alex/learning.git
 ```
 ### How to push to remote repo:
 ```bash
-- git push -u origin main #(push main branch to origin; origin is set by --set-upstream a.k.a -u)
+git push -u origin main #(push main branch to origin; origin is set by --set-upstream a.k.a -u)
 ```
 
 ### About HEAD
