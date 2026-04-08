@@ -71,3 +71,9 @@ graph LR;
 ```bash
 git commit --amend -m "<new message>"
 ```
+
+### Remove files from stagin area
+
+```bash
+git restore --staged <file>
+```
