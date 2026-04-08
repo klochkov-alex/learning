@@ -47,7 +47,7 @@ HEAD always points to the latest commit
 
 ### How to make diagrams
 
-Use mermaid[https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/]:
+Use [mermaid](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/):
 
 ```mermaid
 graph LR;
