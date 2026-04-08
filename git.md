@@ -65,3 +65,9 @@ graph LR;
      git commit --amend --no-edit
    ```
    `--no-edit` means no edit for commit message (leave the same as it was);
+
+### How to edit the message from the latest commit
+
+```bash
+git commit --amend -m "<new message>"
+```
