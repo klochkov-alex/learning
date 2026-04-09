@@ -81,11 +81,23 @@ git restore --staged <file>
 ### Delete commits until <hash>
 
 Check has for the commit:
-```
+```bash
 git log --oneline
 ```
 
 Delete commits:
-```
+```bash
 git reset --hard <commit>
+```
+
+### How to see changes from modified and staged
+
+Use git diff to see modified files:
+```bash
+git diff
+```
+
+For staged, use `--staged`:
+```bash
+git diff --staged
 ```
