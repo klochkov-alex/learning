@@ -101,3 +101,11 @@ For staged, use `--staged`:
 ```bash
 git diff --staged
 ```
+
+### How to see changes between two commits
+
+```bash
+git diff <hash1> <hash2>
+```
+
+**Note**: for the latest commit you can use `HEAD`
