@@ -175,3 +175,8 @@ docs/*/tmp
 # но только не мем с Doge
 !doge.jpeg
 ```
+
+### Проверить, какие файлы git игноририует
+```bash
+git status --ignored`
+```
